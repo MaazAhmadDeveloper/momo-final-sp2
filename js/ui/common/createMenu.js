@@ -27,7 +27,7 @@ export async function createMenu() {
         <div class="flex items-center space-x-4 text-sm">
           <span class="text-black mr-4">Credits: <span class="text-red-500 mr-4">${credits}</span></span>
           <span class="text-black mr-4">Hi ${username}</span>
-          <a href="/profile" class="hover:bg-gray-200 text-black ring-1 ring-black font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline transition-colors duration-200">
+          <a href="/profile/" class="hover:bg-gray-200 text-black ring-1 ring-black font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline transition-colors duration-200">
             Profile
           </a>
           <button id="logoutButton" class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline transition-colors duration-200">
