@@ -57,7 +57,7 @@ export async function editProfileFormListener(e) {
   try {
     await updateProfile({ name: userName, token: userToken }, profile);
 
-    window.location.href = "/profile";
+    window.location.href = "/profile/";
   } catch (error) {
     displayMessage(messageContainer, "error", error.message);
   } finally {
