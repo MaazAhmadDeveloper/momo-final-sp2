@@ -6,7 +6,7 @@ export function myProfileListener() {
 
   if (myProfileBtn) {
     myProfileBtn.addEventListener("click", () => {
-      window.location.href = "/profile";
+      window.location.href = "/profile/";
     });
   }
 }
