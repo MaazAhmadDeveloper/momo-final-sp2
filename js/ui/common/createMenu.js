@@ -40,7 +40,9 @@ export async function createMenu() {
     container.innerHTML = `
       <nav class="flex justify-between items-center p-0 md:p-4 bg-[#F5F5F5]">
         <div class="flex items-center space-x-4">
-          <a href="/" class="text-black hover:text-[#005674] py-2 px-3 font-medium transition-colors duration-200 ">Logo</a>
+          <a href="/" class="text-black hover:text-[#005674] py-2 px-3 font-medium transition-colors duration-200 ">
+            <img src="../../../assets/auction_logo.png" width="70px" height="auto" />
+          </a>
         </div>
         <div class="flex items-center space-x-4">
           <a href="/login" class="text-[#555555] hover:text-[#005674] py-2 px-3 font-medium transition-colors duration-200 ">Sign in</a>
